@@ -16,14 +16,3 @@ class DistributedStore(object):
 
     def serve(self):
         pass
-
-
-class Client(object):
-    def connect(self):
-        pass
-
-    def get(self, key):
-        pass
-
-    def set(self, key, value):
-        pass
